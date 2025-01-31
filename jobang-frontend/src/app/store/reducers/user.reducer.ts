@@ -4,7 +4,7 @@ import { loadUserSuccess, loadUserFailure } from '../actions/user.actions';
 
 // Define the initial state of the user
 export interface State {
-    user: User | null;
+    user:  null;
     error: string | null;
   }
   
